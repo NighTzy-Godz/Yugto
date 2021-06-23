@@ -1,0 +1,637 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+#line {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.disable {
+  pointer-events: none;
+  color: rgba(255, 255, 255, 0.288) !important;
+}
+
+.disableA {
+  cursor: not-allowed;
+}
+
+.navbar-toggler {
+  background-color: #e50914;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: scroll;
+}
+/* NAVBAR */
+
+#mainNav {
+  background-color: #121212;
+}
+
+.navbar-brand {
+  color: #e50914 !important;
+  font-size: 40px;
+  margin-right: 109px;
+  font-family: "Big Shoulders Display", cursive !important;
+  margin-left: 30px;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 20px;
+  font-weight: 300;
+  margin-right: 50px;
+}
+
+#navbarNav {
+  margin-left: 30px;
+}
+
+ul li a:hover {
+  color: #e50914 !important;
+  transition: 0.6s;
+}
+
+.land {
+  background-image: url("/Yugto/main-mg.png");
+  background-size: 100% 100%;
+  height: 92vh;
+}
+
+/* BIO */
+
+.bio {
+  overflow: hidden;
+}
+
+.member {
+  background-color: #121212;
+  padding: 40px;
+}
+
+.member h1 {
+  font-size: 100px;
+  font-weight: 300;
+  color: #e50914e3;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.left-content {
+  background-color: #121212;
+  padding: 60px;
+}
+
+.bio-name {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.bio-name h1 {
+  color: #e50914;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.bio-name p {
+  color: rgba(255, 255, 255, 0.904);
+  font-size: 18px;
+}
+
+.bio-desc p {
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.bioSoc {
+  margin-top: 50px;
+}
+
+.bioSoc ul {
+  display: flex !important;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bioSoc ul li i {
+  font-size: 30px;
+  color: white;
+}
+
+.bioSoc ul li i:hover {
+  color: #e50914;
+  transition: 0.6s;
+}
+
+.klik {
+  text-align: center;
+  margin-top: 40px;
+  width: 100%;
+  display: none;
+}
+
+.klik button {
+  width: 100%;
+  background-color: #e50914;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 300;
+  transition: all 0.2s ease-in-out;
+}
+
+.klik button:hover {
+  transform: scale(1.1);
+  background-color: #e50914be;
+}
+
+.left-content.josh1 {
+  background-image: url("/josh.jpg");
+  background-size: cover;
+}
+
+/* RIGHT */
+
+.right-content {
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.897);
+}
+
+/* RIGHT PICTURES */
+.josh {
+  background-image: url("/Yugto/josh.jpg");
+  background-size: cover;
+}
+
+.rachel {
+  background-image: url("/Yugto//lida.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.aivan {
+  background-image: url("/Yugto/aivan.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.jaden {
+  background-image: url("/Yugto/jaden.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.tims {
+  background-image: url("/Yugto/tims.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.ian {
+  background-image: url("/Yugto/ian.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.aser {
+  background-image: url("/Yugto/aser.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* DUPLICATE */
+
+.c1.joshs {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/Yugto/josh.jpg");
+  background-position: center;
+  background-size: cover;
+  display: block;
+}
+
+.c2.rachels {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/Yugto/lida.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: block;
+}
+
+.c3.aivans {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/Yugto/aivan.jpg");
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+
+.c4.jadens {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/Yugto/jaden.jpg");
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+
+.c5.tim {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/Yugto/tims.jpg");
+  background-size: cover;
+  display: block;
+}
+
+.c6.ians {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/Yugto/ian.jpg");
+  background-size: cover;
+  display: block;
+  background-position: center;
+}
+
+.c7.asers {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/Yugto/aser.jpg");
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+
+.bioContent.hide {
+  visibility: hidden;
+}
+
+/* CONTENT */
+.sa1 {
+  background-color: #121212;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.sa-main {
+  padding-top: 80px;
+}
+
+.saNum {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.saNum h4 {
+  color: #e50914;
+}
+
+.saTitle {
+  margin-bottom: 40px;
+}
+
+.saTitle h1,
+p {
+  color: white;
+}
+
+.sa-content {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.sa-content p {
+  text-align: justify;
+}
+
+.sa1-img {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sa-content img {
+  width: 80%;
+  margin: auto;
+}
+
+.sa1-img p {
+  width: 70%;
+  margin: auto;
+}
+
+/*----- SA2---- */
+.sa2 {
+  background-color: black;
+  padding-top: 60px;
+  align-items: center;
+}
+
+.sa2-main {
+  /* text-align: ;
+   */
+  width: 80%;
+  margin: auto;
+  background-color: #1d1d1d83;
+  padding: 40px;
+  color: white;
+}
+
+.saTitle {
+  text-align: center;
+}
+.saTitle h1 {
+  color: #e50914c9;
+}
+.sa2-main h5 {
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.sa2-img {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.sa2-img img {
+  width: 100%;
+  margin: auto;
+}
+
+.sa2-img p {
+  width: 100%;
+  overflow: hidden;
+}
+
+.b-tit {
+  color: black;
+  font-weight: 400;
+  color: #e50914;
+}
+
+.o-t {
+  color: black;
+  margin-left: 5%;
+  margin-bottom: 15px;
+}
+
+.t-t {
+  color: black;
+  margin-left: 10%;
+  margin-bottom: 15px;
+}
+
+.d-t {
+  margin-left: 15%;
+  margin-bottom: 15px;
+}
+
+.sangunian {
+  color: #e50914;
+}
+
+/* SELECT */
+.select {
+  background-color: #121212;
+}
+
+.select-contain {
+  position: relative;
+  top: 5rem;
+}
+
+.selectMe {
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+.selectMe h1 {
+  font-size: 100px;
+  font-weight: 300;
+  color: #e50914e3;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.select-contain .img-fluid {
+  width: 100% !important;
+}
+
+/* BALANG */
+
+.first {
+  background-color: rgba(0, 0, 0, 0.959) !important;
+  padding: 30px;
+}
+.second {
+  background-color: rgba(0, 0, 0, 0.904) !important;
+  padding: 30px;
+}
+.balang .o-t {
+  color: #e50914;
+}
+
+.balang {
+  overflow: hidden;
+  background-color: #121212;
+  padding-top: 100px;
+}
+
+.balangTitle {
+  margin-bottom: 40px;
+}
+
+.balangTitle h1 {
+  color: #e50914;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.balang .o-t {
+  font-size: 22px;
+}
+
+.balang .t-t {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.balang .d-t {
+  color: rgba(255, 255, 255, 0.664);
+}
+
+/* TUNGKOL */
+
+.tungkol {
+  background-image: url(/Yugto//tungkolbg.png);
+  background-size: 100% 100%;
+  height: 92vh;
+}
+
+/* INFO */
+
+.info {
+  background-color: #121212;
+  padding-top: 60px;
+}
+
+.info-title {
+  margin-bottom: 60px;
+}
+
+.info-title h1 {
+  font-size: 100px;
+  font-weight: 300;
+  color: #e50914e3;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.height img {
+  height: 100%;
+  width: 100%;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #121212;
+}
+
+.footTitle {
+  margin-bottom: 30px;
+}
+
+.footTitle h1 {
+  font-size: 80px;
+  font-weight: 300;
+  color: #e50914e3;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.footRole h1 {
+  font-size: 50px;
+  font-weight: 300;
+  color: #e50914e3;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.footRole a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.footRole a:hover {
+  color: #e50914a8;
+
+  transition: 0.5s;
+}
+
+.mid a {
+  color: #e50914;
+  font-size: 50px;
+  font-family: "Big Shoulders Display", cursive;
+  text-decoration: none;
+}
+
+/* IMPORMATIBO */
+.imporma {
+  background-color: #121212;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.impormaHead {
+  width: 90%;
+}
+
+.impormaHead h1 {
+  color: rgba(255, 255, 255, 0.863);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.dep,
+.dep h1 {
+  margin-bottom: 10px;
+  color: #e50914;
+}
+
+.depTitle h3 {
+  color: #e50914;
+  font-size: 35px;
+}
+
+.depContent {
+  text-align: justify;
+}
+
+.depContent h3:nth-child(3) {
+  text-align: start;
+}
+
+/* Naratibo */
+
+.naratibo {
+  background-color: #121212;
+  padding: 50px;
+}
+
+.naraTitle h1 {
+  color: #e50914;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.nIsinulat {
+  width: 70%;
+  margin: auto;
+}
+
+.nIsinulat p {
+  color: #e50914;
+  font-size: 18px;
+}
+
+.naraContent {
+  text-align: justify;
+}
+
+/* Persweysib */
+
+.pers {
+  padding: 40px;
+  background-color: #121212;
+}
+
+.persVid {
+  display: flex;
+}
+
+.fit {
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.persTitle h2 {
+  font-size: 60px;
+  color: #e50914;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: "Big Shoulders Display";
+}
+
+.skrip {
+  text-align: justify;
+}
