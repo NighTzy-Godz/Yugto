@@ -632,6 +632,105 @@ footer {
   font-family: "Big Shoulders Display";
 }
 
-.skrip {
+.mainSkrip {
   text-align: justify;
+}
+
+/* Prosedyural */
+
+.prosedyu {
+  background-color: #121212;
+  padding: 40px;
+}
+
+.prosedyuContainer {
+  width: 100%;
+  margin: auto;
+}
+
+.proTitle {
+  margin-bottom: 10px;
+}
+
+.proTitle h2 {
+  color: #e50914;
+  font-size: 33px;
+}
+
+.isinulat {
+  margin-bottom: 50px;
+}
+
+.isinulat p {
+  color: rgba(255, 255, 255, 0.849);
+  font-size: 18px;
+}
+
+.idk {
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.856);
+  font-size: 17px;
+}
+
+.dumaTitle1 {
+  color: #e50914;
+  margin-bottom: 30px;
+}
+
+.dumaTitle {
+  color: #e50914;
+  margin-bottom: 30px;
+}
+
+.dumalo {
+  color: #e50914;
+}
+
+.dumalo li {
+  margin-bottom: 10px;
+}
+
+.rango {
+  color: #fff;
+}
+
+.rango li {
+  margin-bottom: 10px;
+}
+
+/* #ibaba {
+  margin-bottom: 30px;
+} */
+
+.proPara {
+  margin-top: 40px;
+  text-align: justify;
+}
+
+.proesdyu .o-t {
+  color: white !important;
+}
+
+.p1 {
+  color: #e50914;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.p2 {
+  margin-left: 4%;
+  width: 70%;
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.863);
+}
+
+.name {
+  color: rgba(255, 255, 255, 0.884);
+  font-size: 28px;
+}
+
+.rank {
+  color: #e50914;
+
+  text-transform: uppercase;
 }
